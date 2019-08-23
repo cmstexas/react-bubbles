@@ -1,4 +1,4 @@
-# Sprint Challenge: Advanced Web Applications - React Bubbles
+# Sprint Challenge: Advanced Web Applications - React Bubbles %%
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Advanced Web Applications, focusing on testing, client-side authentication, hosting web apps, and PUT and DELETE requests.
 
@@ -29,9 +29,24 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+A token is for security authentication, used to give access to a network. It's used to create security for our apps and to store hidden information.
+
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+Using identification, authentication, and authorization strategies. Also, API encryption. testing code for vulnerabilities can also help keep data secure.  
+
 - [ ] Describe how web servers work.
+
+A page on the internet can be viewed when the browser (eg: chrome) gets it from the web server and the web server "serves" up a page. 1. The web broswer gets the IP Address from the domain name. 2. The browser request the Full URL from web server. 3. Web server responds by sending pages or errors 4. Browser then has something to display on the web page. 
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+POST Creates a new resource. 
+GET Retrieves a resource. 
+PUT Updates an existing resource.
+DELETE Deletes a resource.
 
 
 ## Project Set Up
@@ -63,18 +78,18 @@ The MVP of this project will be broken up between 2 stages. Follow each step.
 
 ### Stage 1 - Authentication
 
-Build a login form to authenticate your users.
+X Build a login form to authenticate your users.
 
-- [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
-- [ ] Save the token to localStorage
-- [ ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
-- [ ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
+- [X ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
+- [X ] Save the token to localStorage
+- [X ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
+- [ X ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
 
 ### Stage 2 - Consuming the API
 
-- [ ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
-- [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+- [X ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
+- [ X] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
+- [X ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 ### API Documentation
 
@@ -88,7 +103,7 @@ Build a login form to authenticate your users.
 
 **HTTP/Axios Stretch Problems**
 
-- [ ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
+- [X ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
 
 **Data Visualization**
 
