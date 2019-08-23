@@ -78,18 +78,18 @@ The MVP of this project will be broken up between 2 stages. Follow each step.
 
 ### Stage 1 - Authentication
 
-Build a login form to authenticate your users.
+X Build a login form to authenticate your users.
 
-- [ ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
-- [ ] Save the token to localStorage
-- [ ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
-- [ ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
+- [X ] Construct an AXIOS request to retrieve a token from the server. You'll use this token to interact with the API
+- [X ] Save the token to localStorage
+- [X ] Build a `axiosWithAuth` module to create an instance of axios with the authentication header
+- [ X ] Build a `PrivateRoute` component and use it to protect a route that renders the `BubblesPage` component
 
 ### Stage 2 - Consuming the API
 
-- [ ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
-- [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
-- [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
+- [X ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
+- [ X] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
+- [X ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 ### API Documentation
 
@@ -103,7 +103,7 @@ Build a login form to authenticate your users.
 
 **HTTP/Axios Stretch Problems**
 
-- [ ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
+- [X ] Build a form at the bottom of `ColorList.js` to add new colors to the colors data
 
 **Data Visualization**
 
